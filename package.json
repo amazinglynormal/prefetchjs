@@ -1,0 +1,29 @@
+{
+  "name": "prefetchjs",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "A library for dynamicly prefetching/prerendering web pages.",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "lint": "eslint src/**/*.{js,ts,json}",
+    "format": "prettier --write src/**/*.{html,js,ts,json,md,css}",
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
+  },
+  "author": "Stephen Brady",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.12.0",
+    "@playwright/test": "^1.48.0",
+    "@types/eslint__js": "^8.42.3",
+    "@types/node": "^22.7.5",
+    "conventional-changelog-cli": "^5.0.0",
+    "eslint": "^9.12.0",
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.8.1",
+    "vite": "^5.4.8",
+    "vite-plugin-dts": "^4.2.3"
+  }
+}
